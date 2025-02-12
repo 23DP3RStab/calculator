@@ -20,7 +20,6 @@ BUTTONS.forEach(function (button) {
             equation += value;
         }
 
-        // If the equation is empty, display "0"
         if (equation === "") {
             DISPLAY.innerHTML = "0";
         } else {
